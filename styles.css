@@ -1,6 +1,7 @@
 body {
     background-image: url("bg1.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .brand {
@@ -17,4 +18,22 @@ body {
 .navbar-nav > li{
     padding-left:30px;
     padding-right:30px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    padding: 0%;
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 400;
+    color: #3E2A1F;
+    width: 750px;
+    position: fixed;
+}
+
+.cake {
+    margin-left: auto;
 }
